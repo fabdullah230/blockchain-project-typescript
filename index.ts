@@ -38,7 +38,7 @@ class Chain {
     chain: Block[]
 
     constructor(){
-        this.chain = [new Block("null", new Transaction(100, 'genesis', 'fardu'))]       
+        this.chain = [new Block("null", new Transaction(100, 'genesis', 'onie'))]       
     }
 
     get lastBlock(){
